@@ -9,7 +9,7 @@
 
 <h1>No A11y</h1>
 
-	<p>Structural errors: no landmarks like heading, fooeter or main.</p>
+<p>Structural errors: no landmarks like heading, footer or main.</p>
 
 <h3>Wrong heading level (h3)</h3>
 
@@ -24,8 +24,9 @@
 <img src="images/flower.jpg" role="presentation" width="200">
 
 <p>SVGs without a title </p>
-
+	
 <h2>Link issues</h2>
+
 	<ul>
 		<li>icon font as link text <a href="https://wordpress.org"><i class="fab fa-accessible-icon"></i></a>
 		<li>link to # <a href="#">button</a></li>
@@ -34,17 +35,25 @@
 	</ul>
 
 
-
 <h2>Form issues</h2>
 
+<p>No labels, No submit button, no fieldset, no legend</p>
+
 <form>
-	<p>No label:</p>
-	<input id="input1" type="text">
+
+	<input name="inputname" type="text"> <br />
+
+	<input name="checkbox1" type="checkbox"> One <br />
+	<input name="checkbox2" type="checkbox"> Two <br />
+	<input name="checkbox3" type="checkbox"> Three <br />
+
+	<input name="radioname" type="radio"> A <br />
+	<input name="radioname" type="radio"> B <br />
+	<input name="radioname" type=radio"> C <br />
+
 	<p>No submit button</p>
+
 </form>
-
-
-
 
 </body>
 </html>
